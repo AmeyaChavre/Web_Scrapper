@@ -19,7 +19,6 @@ def to_scrape_crawler():
     print(f"Total Images found on Website : {len(img_url_list)}")
 
     img_full_url=[]
-
     for img_url in img_url_list:
         img_full_url.append("http://books.toscrape.com"+str(img_url[2:]))
     #print(img_full_url)
