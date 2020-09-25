@@ -5,7 +5,6 @@ count = 0
 url_list = []
 for page_urls in range(50):
     count+=1
-    page_request = requests.get(f"http://books.toscrape.com/catalogue/page-{count}.html")
     url_list.append(f"http://books.toscrape.com/catalogue/page-{count}.html")
 #print(url_list)
 
