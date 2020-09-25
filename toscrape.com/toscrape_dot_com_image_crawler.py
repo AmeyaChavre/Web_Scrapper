@@ -22,6 +22,7 @@ for img_url in img_url_list:
     img_full_url.append("http://books.toscrape.com"+str(img_url[2:]))
 #print(img_full_url)
 print("All image url's extracted from toscrape.com")
+print("Download in Progress. Please Wait....")
 
 file_count=0
 for image_address in img_full_url:
@@ -35,6 +36,7 @@ print(f"All {file_count} images have been downloaded")
 
     
     
+
 
 
 
