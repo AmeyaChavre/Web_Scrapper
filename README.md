@@ -12,6 +12,5 @@ Note : Please check for copyright contents/images before running the program.
 2) Extract all the image urls
 3) Download all 1000 images from URLs on D: drive.
 
-Note : toscrape.com is website specifically designed for scrapping purposes and doesn't require prior permissions from owners.
-Note : Please check for copyright images before running the program.
+Note : toscrape.com is website specifically designed for scrapping purposes and doesn't require prior permissions from owners.Please check for copyright images before running the program.
 
