@@ -31,6 +31,7 @@ for image_address in img_full_url:
     file = open(f"D:\\Scrapped_Images\\file_{file_count}.jpg",'wb')
     file.write(download_image.content)
     file.close()
+    print(f"{file_count} file(s) have been downloaded.Press Ctrl+C to stop the download.")
 print(f"All {file_count} images have been downloaded")
     
 
