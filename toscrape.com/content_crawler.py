@@ -16,5 +16,11 @@ quotes_list = []
 for quotes in soup.select('.text'):
     quotes_list.append(quotes.text)
 print(f"List of quotes on first page : \n\n {quotes_list} \n\n")
+
+tag_list=[]
+
+for tags in soup.select('.tag-item a'):
+    tag_list.append(tags.text)
+print(f"List of Top 10 tags on first page : \n\n {tag_list} \n\n")
     
 
